@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+		<servlet-name>phuoc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>phuoc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+  <display-name>Archetype Created Web Application</display-name>
+</web-app>
