@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="3951050093" class="com.qlsv.bean.SinhVien">
+		<property name="maSV" value="3951050093"></property>
+		<property name="hoTen" value="Nguyễn Hữu Phước"></property>
+		<property name="soThich" value="Săn bắn, hái lượm, sinh hoạt cộng đồng,....."></property>
+		<property name="uocMo" value="Trở thành một triệu phú tự thân"></property>
+		<property name="mucTieu" value="Sang Nhật Bản làm việc"></property>
+	</bean>
+	
+	<bean id="3951050000" class="com.qlsv.bean.SinhVien">
+		<property name="maSV" value="3951050000"></property>
+		<property name="hoTen" value="Ngô Văn Ra"></property>
+		<property name="soThich" value="Đọc sách, bơi lội, chơi game,...."></property>
+		<property name="uocMo" value="Trở thành một nhà khoa học"></property>
+		<property name="mucTieu" value="Tốt nghiệp đại học"></property>
+	</bean>
+</beans>
